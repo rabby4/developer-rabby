@@ -10,7 +10,7 @@ const Projects = () => {
     return (
         <>
             <div className='container max-w-7xl mx-auto'>
-                <div className='text-center'>
+                <div className='text-center mb-16'>
                     <SectionTitle subtitle={'PORTFOLIO'} title={'RECENT PROJECT'} paragraph={'I enjoy developing simple, clean and slick websites that provide real value to the end user.'}></SectionTitle>
                 </div>
                 <div className='space-y-10'>

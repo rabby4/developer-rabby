@@ -9,8 +9,8 @@ import { BiSupport } from "react-icons/bi";
 const About = () => {
     return (
         <>
-            <div className='container max-w-7xl mx-auto'>
-                <div className='text-center'>
+            <div className='container max-w-7xl mx-auto my-32'>
+                <div className='text-center mb-16'>
                     <SectionTitle subtitle={'Learn More'} title={'about me'} paragraph={'I’m professional web designer & developer. I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. '}></SectionTitle>
                 </div>
                 <div className='grid md:grid-cols-2 grid-cols-1 gap-10 '>
