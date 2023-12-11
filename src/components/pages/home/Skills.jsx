@@ -61,6 +61,12 @@ const Skills = () => {
                         <h3 className='text-xl font-semibold mt-2 italic text-[#6cc24a]'>NodeJS</h3>
                     </div>
                     <div className='flex flex-col justify-center items-center shadow-md rounded-lg py-8'>
+                        <div className="radial-progress flex items-center justify-center w-32 h-32" style={{ "--value": 50 }} role="progressbar">
+                            <h3 className='text-2xl font-bold'>50%</h3>
+                        </div>
+                        <h3 className='text-xl font-semibold mt-2 italic text-[#303030]'>Express JS</h3>
+                    </div>
+                    <div className='flex flex-col justify-center items-center shadow-md rounded-lg py-8'>
                         <div className="radial-progress flex items-center justify-center w-32 h-32" style={{ "--value": 85 }} role="progressbar">
                             <h3 className='text-2xl font-bold'>85%</h3>
                         </div>
