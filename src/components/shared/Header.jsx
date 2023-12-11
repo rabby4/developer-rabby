@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../../assets/Developer Rabby (Dark).png'
+import logo from '../../assets/developer-rabby.png'
 
 const Header = () => {
     const navLinks = <>
@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <>
             <div className="navbar shadow-md h-24">
-                <div className="container mx-auto justify-between items-center md:px-8 lg:px-0">
+                <div className="container max-w-7xl mx-auto justify-between items-center md:px-8 lg:px-0">
                     <div className="flex justify-between w-full md:w-auto">
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
