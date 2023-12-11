@@ -13,7 +13,7 @@ const Skills = () => {
                         {/* <h4 className='text-xl newFont'>My Skills</h4> */}
                         <h2 className='text-5xl capitalize font-bold '>My Skills</h2>
                         <div className="divider w-40 divider-warning h-0"></div>
-                        <p className='text-lg max-w-4xl mx-auto paragraph'>I am a front-end web developer and I am passionate about web design and development.</p>
+                        <p className='text-lg max-w-4xl mx-auto paragraph leading-8'>I am a front-end web developer and I am passionate about web design and development. I am expertise in React, Tailwind, JavaScript, HTML5, CSS3, WordPress, Wix etc. I build user-friendly and performant web applications.</p>
                     </div>
                 </div>
                 <div className='col-span-4 grid grid-cols-4 gap-5'>

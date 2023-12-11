@@ -40,3 +40,13 @@ body {
     transform: rotate(calc(var(--value) * 3.6deg - 90deg)) translate(calc(var(--size) / 2 - 50%));
     background-color: transparent !important;
 }
+
+.vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 35px !important;
+    left: 18px;
+    height: 84% !important;
+    width: 4px;
+    background: #8b8b8b !important;
+}

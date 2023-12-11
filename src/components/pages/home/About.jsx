@@ -11,7 +11,7 @@ const About = () => {
         <>
             <div className='container max-w-7xl mx-auto'>
                 <div className='text-center'>
-                    <SectionTitle subtitle={'Learn More'} title={'about me'} paragraph={'I’m professional web designer & developer. I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.'}></SectionTitle>
+                    <SectionTitle subtitle={'Learn More'} title={'about me'} paragraph={'I’m professional web designer & developer. I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. '}></SectionTitle>
                 </div>
                 <div className='grid md:grid-cols-2 grid-cols-1 gap-10 '>
                     <div className='flex gap-10 p-10 border-[1px] border-brown-900 border-opacity-20 rounded-lg'>
