@@ -1,8 +1,4 @@
-import React from 'react';
-import html5 from '../../../assets/HTML5_Logo_512.png'
-import css3 from '../../../assets/css-logo.png'
-import js from '../../../assets/js.webp'
-import react from '../../../assets/react.png'
+
 
 const Skills = () => {
     return (
@@ -10,7 +6,6 @@ const Skills = () => {
             <div className='container max-w-7xl mx-auto grid grid-cols-6 gap-10 my-36'>
                 <div className='col-span-2 text-left'>
                     <div className='space-y-5'>
-                        {/* <h4 className='text-xl newFont'>My Skills</h4> */}
                         <h2 className='text-5xl capitalize font-bold '>My Skills</h2>
                         <div className="divider w-40 divider-warning h-0"></div>
                         <p className='text-lg max-w-4xl mx-auto paragraph leading-8'>I am a front-end web developer and I am passionate about web design and development. I am expertise in React, Tailwind, JavaScript, HTML5, CSS3, WordPress, Wix etc. I build user-friendly and performant web applications.</p>
