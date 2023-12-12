@@ -3,15 +3,13 @@
 const Skills = () => {
     return (
         <>
-            <div className='container max-w-7xl mx-auto grid grid-cols-6 gap-10 my-40'>
-                <div className='col-span-2 text-left'>
-                    <div className='space-y-5'>
-                        <h2 className='text-5xl capitalize font-bold '>My Skills</h2>
-                        <div className="divider w-40 divider-warning h-0"></div>
-                        <p className='text-lg max-w-4xl mx-auto paragraph leading-8'>I am a front-end web developer and I am passionate about web design and development. I am expertise in React, Tailwind, JavaScript, HTML5, CSS3, WordPress, Wix etc. I build user-friendly and performant web applications.</p>
-                    </div>
+            <div className='container max-w-7xl mx-auto grid lg:grid-cols-6 lg:gap-10 my-40 lg:px-0 md:px-10 px-5'>
+                <div className='col-span-2 space-y-5 lg:text-left text-center'>
+                    <h2 className='text-5xl capitalize font-bold '>My Skills</h2>
+                    <div className="divider w-40 divider-warning h-0 mx-auto lg:mx-0"></div>
+                    <p className='md:text-lg text-base max-w-4xl mx-auto paragraph md:leading-8'>I am a front-end web developer and I am passionate about web design and development. I am expertise in React, Tailwind, JavaScript, HTML5, CSS3, WordPress, Wix etc. I build user-friendly and performant web applications.</p>
                 </div>
-                <div className='col-span-4 grid grid-cols-4 gap-5'>
+                <div className='col-span-4 grid md:grid-cols-4 grid-cols-2 gap-5 lg:mt-0 mt-10'>
                     <div className='flex flex-col justify-center items-center shadow-md rounded-lg py-8'>
                         <div className="radial-progress flex items-center justify-center w-28 h-28" style={{ "--value": 90 }} role="progressbar">
                             <h3 className='text-2xl font-bold'>90%</h3>

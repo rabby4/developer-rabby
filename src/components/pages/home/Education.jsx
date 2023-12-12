@@ -6,7 +6,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 const Education = () => {
     return (
         <>
-            <div className='container max-w-7xl mx-auto'>
+            <div className='container max-w-7xl mx-auto lg:px-0 md:px-10 px-5'>
                 <div className='text-center'>
                     <SectionTitle title={'Education'}></SectionTitle>
                 </div>

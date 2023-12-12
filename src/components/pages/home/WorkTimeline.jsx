@@ -10,7 +10,7 @@ import { MdOutlineWeb } from "react-icons/md";
 const WorkTimeline = () => {
     return (
         <>
-            <div className='container max-w-7xl mx-auto my-20'>
+            <div className='container max-w-7xl mx-auto my-20 lg:px-0 md:px-10 px-5'>
                 <div className='text-center'>
                     <SectionTitle title={'HOW DO I WORK'} paragraph={'I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.'}></SectionTitle>
                 </div>
