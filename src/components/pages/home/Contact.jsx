@@ -72,7 +72,7 @@ const Contact = () => {
                                 <input type="text" name="subject" id="name" placeholder='Subject...' className='border-b-[1px] border-brown-500 outline-none p-4 text-sm' />
                             </div>
                             <textarea name="message" id="" rows="5" placeholder="What's on your mind..." className='border-b-[1px] border-brown-500 outline-none p-4 text-sm w-full mt-5'></textarea>
-                            <button className='btn' type="submit">Send</button>
+                            <button className="btn text-base bg-brown-900 hover:bg-brown-500 text-white px-10" type="submit">Send</button>
                         </form>
                     </div>
                 </div>
