@@ -1,12 +1,32 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import SectionTitle from '../../shared/SectionTitle';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
+import toast from 'react-hot-toast';
 
-
+// service_zat0dsd service_b55zdys service_p3qpjr9
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_p3qpjr9', 'template_gbi3mff', form.current, 'BH73RFThO7tgrqkIs')
+            .then((result) => {
+                console.log(result);
+                if (result.text === 'OK') {
+                    toast.success('Message send Successfully!')
+                }
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset()
+    };
+
+
     return (
         <>
             <div id='contact' className='container max-w-7xl mx-auto my-32 lg:px-0 md:px-10 px-5'>
@@ -44,14 +64,15 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='col-span-2 w-full p-10 rounded-lg'>
-                        <form action="">
+                        <form ref={form} onSubmit={sendEmail}>
                             <div className='grid md:grid-cols-2 grid-cols-1 gap-5'>
                                 <input type="text" name="name" id="name" placeholder='Your Name...' className='border-b-[1px] border-brown-500 outline-none p-4 text-sm' />
-                                <input type="email" name="name" id="name" placeholder='Your Email...' className='border-b-[1px] border-brown-500 outline-none p-4 text-sm' />
-                                <input type="text" name="name" id="name" placeholder='Your Number...' className='border-b-[1px] border-brown-500 outline-none p-4 text-sm' />
-                                <input type="text" name="name" id="name" placeholder='Subject...' className='border-b-[1px] border-brown-500 outline-none p-4 text-sm' />
+                                <input type="email" name="email" id="name" placeholder='Your Email...' className='border-b-[1px] border-brown-500 outline-none p-4 text-sm' />
+                                <input type="text" name="number" id="name" placeholder='Your Number...' className='border-b-[1px] border-brown-500 outline-none p-4 text-sm' />
+                                <input type="text" name="subject" id="name" placeholder='Subject...' className='border-b-[1px] border-brown-500 outline-none p-4 text-sm' />
                             </div>
-                            <textarea name="" id="" rows="5" placeholder="What's on your mind..." className='border-b-[1px] border-brown-500 outline-none p-4 text-sm w-full mt-5'></textarea>
+                            <textarea name="message" id="" rows="5" placeholder="What's on your mind..." className='border-b-[1px] border-brown-500 outline-none p-4 text-sm w-full mt-5'></textarea>
+                            <button className='btn' type="submit">Send</button>
                         </form>
                     </div>
                 </div>
