@@ -4,9 +4,10 @@ import logo from '../../assets/developer-rabby.png'
 const Header = () => {
     const navLinks = <>
         <li><Link to={'/'}>Home</Link></li>
-        <li><Link to={'/about'}>About</Link></li>
-        <li><Link to={'/portfolios'}>Portfolios</Link></li>
-        <li><Link to={'/contact'}>Contact</Link></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#skills'>Skills</a></li>
+        <li><a href='#portfolios'>Portfolios</a></li>
+        <li><a href='#contact'>Contact</a></li>
     </>
     return (
         <>
@@ -34,7 +35,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className='hidden lg:block'>
-                        <button className="btn text-base bg-brown-900 hover:bg-brown-500 text-white">Download Resume</button>
+                        <a href='../../../assets/personal-branding.pdf' download className="btn text-base bg-brown-900 hover:bg-brown-500 text-white">Download Resume</a>
                     </div>
                 </div>
             </div>

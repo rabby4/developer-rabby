@@ -3,7 +3,7 @@
 const Skills = () => {
     return (
         <>
-            <div className='container max-w-7xl mx-auto grid lg:grid-cols-6 lg:gap-10 my-40 lg:px-0 md:px-10 px-5'>
+            <div id="skills" className='container max-w-7xl mx-auto grid lg:grid-cols-6 lg:gap-10 my-40 lg:px-0 md:px-10 px-5'>
                 <div className='col-span-2 space-y-5 lg:text-left text-center'>
                     <h2 className='text-5xl capitalize font-bold '>My Skills</h2>
                     <div className="divider w-40 divider-warning h-0 mx-auto lg:mx-0"></div>

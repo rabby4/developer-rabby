@@ -10,8 +10,8 @@ const Banner = () => {
                     <h2 className='lg:text-8xl md:text-7xl text-5xl font-bold text-transparent italic strokeText'>Golam Rabby</h2>
                     <p className='text-lg'>Full Stack Web Developer And WordPress Expert</p>
                     <div className='md:space-x-5 md:space-y-0 space-y-4'>
-                        <button className="btn bg-transparent border-brown-400 uppercase text-white hover:bg-brown-500 hover:border-brown-500 px-8">Free consultation</button>
-                        <button className="btn bg-brown-500 hover:bg-brown-900 text-white border-none uppercase px-8">Download Resume</button>
+                        <a href={'#contact'} className="btn bg-transparent border-brown-400 uppercase text-white hover:bg-brown-500 hover:border-brown-500 px-8">Free consultation</a>
+                        <a href='../../../assets/personal-branding.pdf' download className="btn bg-brown-500 hover:bg-brown-900 text-white border-none uppercase px-8">Download Resume</a>
                     </div>
                 </div>
             </div>

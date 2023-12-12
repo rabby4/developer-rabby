@@ -1,7 +1,5 @@
 import React from 'react';
-import { FaUsers } from 'react-icons/fa';
 import SectionTitle from '../../shared/SectionTitle';
-import { GiFoodTruck } from "react-icons/gi";
 import weddingImg from '../../../assets/wedding.png'
 import electronicImg from '../../../assets/electronic.png'
 import foodImg from '../../../assets/food.png'
@@ -9,7 +7,7 @@ import foodImg from '../../../assets/food.png'
 const Projects = () => {
     return (
         <>
-            <div className='container max-w-7xl mx-auto lg:px-0 md:px-10 px-5'>
+            <div id='portfolios' className='container max-w-7xl mx-auto lg:px-0 md:px-10 px-5'>
                 <div className='text-center mb-16'>
                     <SectionTitle subtitle={'PORTFOLIO'} title={'RECENT PROJECT'} paragraph={'I enjoy developing simple, clean and slick websites that provide real value to the end user.'}></SectionTitle>
                 </div>

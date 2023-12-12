@@ -9,7 +9,7 @@ import { MdOutlinePhoneInTalk } from "react-icons/md";
 const Contact = () => {
     return (
         <>
-            <div className='container max-w-7xl mx-auto my-32 lg:px-0 md:px-10 px-5'>
+            <div id='contact' className='container max-w-7xl mx-auto my-32 lg:px-0 md:px-10 px-5'>
                 <div className='text-center'>
                     <SectionTitle title={'CONTACT ME'} subtitle={'Get In Touch'}></SectionTitle>
                 </div>
